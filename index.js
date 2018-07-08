@@ -1,7 +1,7 @@
 // Code your solution in this file!
-//const logDriverNames = function (driver){
-//  driver.forEach(function(element){console.log(element.name)})
-//}
+const logDriverNames = function (driver){
+  driver.forEach(function(element){console.log(element.name)})
+}
 const logDriversByHometown = function(driver, location){
   //var arry = driver.filter(function(num){
     //console.log(num.hometown)
