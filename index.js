@@ -8,6 +8,6 @@ const logDriversByHometown = function(driver, location){
   //  return num.hometown === num.location
   //})
   driver.forEach(function(element){
-    console.log(element.hometown)})
-  
+    if (element.hometown = location){
+    console.log(element.hometown)})}
 }
