@@ -8,4 +8,5 @@ const logDriversByHometown = function(driver, location){
   var art = arry.map(function(num){
     return console.log(num === location)
   })
+  return art
 }
