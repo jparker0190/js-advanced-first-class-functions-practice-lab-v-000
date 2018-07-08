@@ -9,3 +9,6 @@ const logDriversByHometown = function(driver, location){
   arry.forEach(function(element){console.log(element.name)})
 
 }
+function driversByRevenue(driver){
+
+}
