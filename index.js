@@ -1,4 +1,4 @@
 // Code your solution in this file!
-function logDriverNames (drive){
-  console.log(${drive.name})
+const logDriverNames = function logDriverNames (drive){
+  drive.forEach(function(product){console.log(${product.name})})
 }
