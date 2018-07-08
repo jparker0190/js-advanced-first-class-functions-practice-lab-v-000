@@ -62,7 +62,7 @@ describe('index.js', function () {
       expect(spy.calledWithExactly('Annette')).to.not.be.true;
     });
   });
-  
+
 
   describe('driversByName()', function () {
     it('uses the sort() method to return a new array of drivers ordered alphabetically by name (A to Z)', function () {
