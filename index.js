@@ -5,7 +5,7 @@ const logDriverNames = function (driver){
 const logDriversByHometown = function(driver, location){
   var arry = driver.filter(function(num){
     console.log(num)
-    return num.key === num.location
+    return num.hometown === num.location
   })
   var art = arry.forEach(function(element){console.log(element.hometown)})
 
