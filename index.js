@@ -10,7 +10,13 @@ const logDriversByHometown = function(driver, location){
 
 }
 function driversByRevenue(driver){
-  driver.sort(function(a,b){
-    return a.revenue - a.revenue
-  })
+  var revenueA = a.revenue.toUpperCase()
+  var revenueB = b.revenue.toUpperCase()
+  if (revenueA < revenueB){
+    return -1;
+  }
+  else if (revenueA > revenueB){
+    return 1
+  }
+  return 0
 }
