@@ -29,7 +29,7 @@ function driversByName(driver){
     if (revenueA < revenueB){
       return -1;
     }
-    else if (revenueA > revenueB){
+     if (revenueA > revenueB){
       return 1
     }
     return 0
