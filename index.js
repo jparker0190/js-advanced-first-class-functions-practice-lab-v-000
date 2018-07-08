@@ -1,5 +1,5 @@
 // Code your solution in this file!
-function logDriverNames (driver, el, arr){
-  console.log(${driver.name})
-  return [...driver, el.name]
+const logDriverNames = function (driver, el, i, arr){
+  let stringg = el.name
+  return driver.stringg
 }
