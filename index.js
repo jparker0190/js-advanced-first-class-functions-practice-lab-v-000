@@ -27,10 +27,10 @@ function driversByRevenue(driver){
     var revenueA = a.revenue
     var revenueB = b.revenue
     if (revenueA < revenueB){
-      return 1;
+      return -1;
     }
     else if (revenueA > revenueB){
-      return -1
+      return 1
     }
     return 0
   })
