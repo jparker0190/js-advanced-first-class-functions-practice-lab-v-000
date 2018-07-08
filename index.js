@@ -24,8 +24,8 @@ function driversByRevenue(driver){
 }
 function driversByName(driver){
   driver.sort(function(a,b){
-    var revenueA = a.name
-    var revenueB = b.name
+    var revenueA = a.name.toUpperCase()
+    var revenueB = b.name.toUpperCase()
     if (revenueA < revenueB){
       return -1;
     }
