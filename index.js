@@ -3,10 +3,9 @@ const logDriverNames = function (driver){
   driver.forEach(function(element){console.log(element.name)})
 }
 const logDriversByHometown = function(driver, location){
-  //var arry = driver.filter(function(num){
-    //console.log(num.hometown)
-  //  return num.hometown === num.location
-  //})
-  driver.forEach(function(element){
-    console.log(element.hometown)})
+  var arry = driver.filter(function(num){
+    return num.key === num.location})
+  var art = arry.map(function(num){
+    return console.log(num === location)
+  })
 }
