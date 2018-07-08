@@ -7,7 +7,7 @@ const logDriversByHometown = function(driver, location){
     //console.log(num.hometown)
   //  return num.hometown === num.location
   //})
-  driver.forEach(function(element){console.log(element.hometown)})
+  driver.forEach(function(element){
+    console.log(element.hometown)})
   
-  return art
 }
