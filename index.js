@@ -10,6 +10,7 @@ const logDriversByHometown = function(driver, location){
 
 }
 function driversByRevenue(driver){
-  driver.sort()
-    console.log(driver);
+  driver.sort(function(a,b){
+    return a - b
+  })
 }
