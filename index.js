@@ -5,7 +5,7 @@ const logDriverNames = function (driver){
 const logDriversByHometown = function(driver, location){
   driver.forEach(function(word){
     if (word === location){
-      console.log(word)
+      console.log(word.name)
     }
   })
 }
