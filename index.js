@@ -23,11 +23,11 @@ function driversByRevenue(driver){
   })
 }
 function driversByRevenue(driver){
-  driver.sort(function(a,b){
+    driver.sort(function(a,b){
     var revenueA = a.revenue
     var revenueB = b.revenue
     if (revenueA < revenueB){
-      return -1;
+      return -1
     }
     else if (revenueA > revenueB){
       return 1
