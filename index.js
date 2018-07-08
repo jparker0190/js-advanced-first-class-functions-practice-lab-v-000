@@ -1,5 +1,4 @@
 // Code your solution in this file!
 const logDriverNames = function (driver){
-  console.log(driver.name)
-
+  driver.foreach(function(element){console.log(element.name)})
 }
