@@ -22,6 +22,16 @@ function driversByRevenue(driver){
     return 0
   })
 }
-function driversByName(){
-  
+function driversByName(driver){
+  driver.sort(function(a,b){
+    var revenueA = a.name
+    var revenueB = b.name
+    if (revenueA < revenueB){
+      return -1;
+    }
+    else if (revenueA > revenueB){
+      return 1
+    }
+    return 0
+  })
 }
