@@ -4,7 +4,7 @@ const logDriverNames = function (driver){
 }
 const logDriversByHometown = function(driver, location){
   var arry = driver.map(function(num){
-    return num.hometown === driver.location
+    return num.hometown === driver.hometown
   })
   console.log(arry)
 }
